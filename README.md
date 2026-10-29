@@ -31,3 +31,9 @@ lib/
 ├── widgets/        # Komponen UI reusable (misal: mata_kuliah_card.dart)
 ├── services/       # Layanan data / API
 └── main.dart       # Titik masuk utama aplikasi & konfigurasi awal
+
+📄 Laporan Praktikum
+
+Dokumen laporan resmi dapat diakses/diunduh melalui tautan berikut:
+
+📄 **[Lihat / Unduh Laporan PDF](<./docs/Laporan Praktikum Pradipta Yudha 25552012004 Pertemuan 3.pdf>)**

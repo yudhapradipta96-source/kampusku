@@ -36,4 +36,4 @@ lib/
 
 Dokumen laporan resmi dapat diakses/diunduh melalui tautan berikut:
 
-📄 **[Lihat / Unduh Laporan PDF](<./docs/Laporan Praktikum Pradipta Yudha 25552012004 Pertemuan 3.pdf>)**
+📄 **[Lihat / Unduh Laporan PDF](</docs/Laporan Praktikum Pradipta Yudha 25552012004 Pertemuan 3.pdf>)**

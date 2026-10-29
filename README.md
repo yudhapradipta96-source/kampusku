@@ -1,17 +1,33 @@
 # kampusku
 
-A new Flutter project.
+Nama: Pradipta Yudha
+NIM: 25552012004
+Kelas: TIF RP 24C CID (Konversi)
+Program Studi: Teknik Informatika
+Perguruan Tinggi: Universitas Teknologi Bandung
 
-## Getting Started
+# 🎓 Kampusku - Aplikasi Informasi Jadwal & Mata Kuliah
 
-This project is a starting point for a Flutter application.
+Aplikasi mobile berbasis **Flutter** yang dikembangkan untuk menampilkan daftar mata kuliah, jadwal perkuliahan, serta informasi akademik kampus secara terstruktur dan terintegrasi. Proyek ini disusun sebagai bagian dari tugas praktikum mata kuliah **Pemrograman Mobile II**.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Fitur Utama
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Daftar Mata Kuliah & Jadwal**: Menampilkan daftar mata kuliah beserta kode, hari, dan jumlah SKS.
+- Lokalisasi Tanggal Bahasa Indonesia**: Format tanggal dinamis mengikuti standar lokal Indonesia menggunakan package `intl`.
+- Responsive UI**: Tampilan antarmuka yang bersih dan responsif untuk berbagai ukuran layar perangkat Android.
+
+---
+
+## Struktur Proyek
+
+Proyek ini menerapkan arsitektur *layered/modular pattern* agar kode rapi dan mudah dipelihara:
+
+```text
+lib/
+├── models/         # Model data (misal: mata_kuliah.dart)
+├── screens/        # Tampilan halaman utama & detail (misal: beranda_screen.dart)
+├── widgets/        # Komponen UI reusable (misal: mata_kuliah_card.dart)
+├── services/       # Layanan data / API
+└── main.dart       # Titik masuk utama aplikasi & konfigurasi awal
